@@ -1,0 +1,69 @@
+/* Post.css */
+
+/* .media */
+.media {
+    height: 0;
+    padding-top: 56.25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+/* .border */
+.border {
+    border: 1px solid;
+}
+
+/* .fullHeightCard */
+.fullHeightCard {
+    height: 100%;
+}
+
+/* .card */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 100%;
+    position: relative;
+}
+
+/* .overlay */
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+/* .overlay2 */
+.overlay2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+}
+
+/* .grid */
+.grid {
+    display: flex;
+}
+
+/* .details */
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* .title */
+.title {
+    padding: 0 16px;
+}
+
+/* .cardActions */
+.cardActions {
+    padding: 0 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}

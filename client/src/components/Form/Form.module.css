@@ -1,0 +1,29 @@
+/* Replace "root" with the appropriate class or selector */
+.root {
+
+    /* The "& .MuiTextField-root" part will target all MuiTextField components within the root element */
+    & .MuiTextField-root {
+        margin: 8px;
+        /* You might need to adjust the spacing value */
+    }
+}
+
+.paper {
+    padding: 16px;
+    /* You might need to adjust the spacing value */
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fileInput {
+    width: 97%;
+    margin: 10px 0;
+}
+
+.buttonSubmit {
+    margin-bottom: 10px;
+}

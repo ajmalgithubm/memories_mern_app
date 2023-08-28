@@ -1,0 +1,18 @@
+/* YourComponent.css */
+
+/* .mainContainer */
+.mainContainer {
+    display: flex;
+    align-items: center;
+}
+
+/* .smMargin */
+.smMargin {
+    margin: 8px;
+    /* You might need to adjust the spacing value */
+}
+
+/* .actionDiv */
+.actionDiv {
+    text-align: center;
+}
